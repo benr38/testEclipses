@@ -21,4 +21,12 @@ public class Calcul {
 		}
 		return r;
 	}
+	
+	public static int somme(int... t) {
+		int r = 1;
+		for (int x : t) {
+			r+=x ;
+		}
+		return r;
+	}
 }
